@@ -1,4 +1,4 @@
-# LEMAY.AI-Interview-Question2
+# LEMAY.AI  Interview Question 2
 
 ## Instructions
 
