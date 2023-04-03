@@ -1,8 +1,27 @@
 # LEMAY.AI  Interview Question 2
 
+## GitHub Docker Registry authentication process
+
+Authenticate with the GitHub Docker registry by logging in using the Docker CLI.
+```shell
+docker login docker.pkg.github.com -u USERNAME -p ACCESS_TOKEN
+```
+Replace USERNAME with your GitHub username and ACCESS_TOKEN with a personal access token that has the appropriate permissions to read from the GitHub Packages registry. You can generate a personal access token in the "Settings" section of your GitHub account.
+
+### How to Generate Personal Access Token
+To generate a personal access token for use with the GitHub Packages registry, you need to follow these steps:
+
+1. Go to the "Settings" section of your GitHub account.
+2. Click on "Developer settings" and then "Personal access tokens".
+3. Click on "Generate new token".
+4. Give the token a name and select the appropriate scopes for the token. For example, you may want to select the read:packages scope to allow read-only access to packages in the GitHub Packages registry.
+5. Click on "Generate token" and copy the token to your clipboard.
+6. Store the token securely in a safe place. You will need it when logging in to the GitHub Packages registry.
+
+
 ## Instructions
 
-Using following line to pull the docker image from the github image registry. 
+Once you have been authenticated with GiHub Docker Registry, use following line to pull the docker image from the github image registry. 
 **Note:** The image is approximately 6gb in size.
 
 ```shell
