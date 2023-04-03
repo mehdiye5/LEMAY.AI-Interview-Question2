@@ -14,7 +14,7 @@ To generate a personal access token for use with the GitHub Packages registry, y
 1. Go to the "Settings" section of your GitHub account.
 2. Click on "Developer settings" and then "Personal access tokens".
 3. Click on "Generate new token".
-4. Give the token a name and select the appropriate scopes for the token. For example, you may want to select the read:packages scope to allow read-only access to packages in the GitHub Packages registry.
+4. Give the token a name and select the appropriate scopes for the token. For example, you may want to select the read:packages and write:packages scope to allow read and write access to packages in the GitHub Packages registry.
 5. Click on "Generate token" and copy the token to your clipboard.
 6. Store the token securely in a safe place. You will need it when logging in to the GitHub Packages registry.
 
