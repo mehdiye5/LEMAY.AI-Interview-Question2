@@ -1,6 +1,6 @@
 # LEMAY.AI  Interview Question 2
 
-## GitHub Docker Registry authentication process
+## GitHub Docker Registry Authentication Process
 
 Authenticate with the GitHub Docker registry by logging in using the Docker CLI.
 ```shell
